@@ -12,3 +12,13 @@ bool isPowerOfTwo(int n) {
         }
         return false;
     }
+
+int main()
+{
+    int N;
+    cout<<"Enter the Number and check whether it is a power of 2 or not = ";
+    cin>>N;
+
+    isPowerOfTwo(N);
+    return 0;
+}

@@ -15,3 +15,13 @@ using namespace std;
         }
             return xReverse;
     }
+
+int main()
+{
+    int N;
+    cout<<"Enter the Number and make a reverse of it = ";
+    cin>>N;
+
+    reverse(N);
+    return 0;
+}
