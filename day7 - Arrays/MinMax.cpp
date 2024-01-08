@@ -34,7 +34,7 @@ int main()
     cout<<"Enter the Size of Array = ";
     cin>>N;
 
-    int myArray[]={};
+    int myArray[100]={};
     
     cout<<"Enter the Elements in a Array = ";
     
@@ -44,10 +44,14 @@ int main()
         cin>>Value;
         myArray[i] = Value;
     }
-
-    int MinAnswer  = Mini(myArray, N);
+    for(int i = 0; i < N; i++)
+    {
+       
+       cout<<myArray[i]<<" ";
+    }
+     int MinAnswer  = Mini(myArray, N);
+    cout<<endl<<"Min value is "<<MinAnswer;
     int MaxAnswer  = Maxi(myArray, N);
-
-cout<<"Max Value = "<<MaxAnswer<<" ---- Min Value = "<<MinAnswer;
+    cout<<endl<<"Max value is "<<MaxAnswer;
     return 0;
 }
