@@ -1,0 +1,18 @@
+1) swap alternate
+2) find unique element
+
+https://leetcode.com/problems/unique-number-of-occurrences/
+
+3) find duplicate element
+
+https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+4) array intersection
+5) pair sum
+6) triplet sum
+
+https://www.codingninjas.com/studio/problems/triplets-with-given-sum_893028
+
+7) sort 0's & 1's
+
+https://www.codingninjas.com/studio/problems/sort-0-1-2_631055
