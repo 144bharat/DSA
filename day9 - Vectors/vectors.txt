@@ -1,0 +1,58 @@
+vectors are the dynamic arrays. Dynamic in terms of a memory allocation.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+# is the Pre processor
+INCLUDE means we are attaching the file for example {vector} file 
+
+#include<vector>
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+vector<int , 10> myDynamicArray;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+SIZE():-
+
+size() – Returns total no. of values in a vector.
+------------------------------------------------------------
+EMPTY():-
+
+myDynamicArray.empty() – Returns TRUE/FALSE.
+------------------------------------------------------------
+VALUE AT ANY POSITION:-
+
+[]  or at() both result in a fixed index value.
+myDynamicArray[2] or myDynamicArray.at(2) --> same value at 2nd index.
+------------------------------------------------------------
+
+FRONT():-
+
+myDynamicArray.front() --> 1st value in a vector.
+------------------------------------------------------------
+
+BACK():-
+
+myDynamicArray.back() --> last value in a vector.
+------------------------------------------------------------
+
+ASSIGN():-
+myDynamicArray.assign(5, 10) --> 10,10,10,10,10 --> 5 block with 10 values.
+------------------------------------------------------------
+
+PUSH_BACK():-
+
+myDynamicArray.push_back(12) --> add 12 from last in vector.
+------------------------------------------------------------
+
+POP_BACK():-
+
+myDynamicArray.pop_back() --> remove last element from vector.
+------------------------------------------------------------
+
+INSERT():-
+
+myDynamicArray.insert(2,24) --> so here we are adding 24 at position 2 and previous 2nd element move to the 3rd one.
+-------------------------------------------------------------
+
+ERASE():-
+
+myDynamicArray.erase(4) --> deleting all the values from vector from the index 4 to till end.
