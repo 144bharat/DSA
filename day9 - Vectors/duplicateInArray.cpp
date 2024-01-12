@@ -3,7 +3,6 @@
 using namespace std;
 int findDuplicate(vector<int> &arr) 
 {
-    //H.W --> 442 leetcode
     // [4,2,1,3,1]
     // [4,2,1,3,1] ^ [1,2,3,4] = 1(ans);
     // ans = 0 , 4;
