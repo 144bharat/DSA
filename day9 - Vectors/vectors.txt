@@ -56,3 +56,14 @@ myDynamicArray.insert(2,24) --> so here we are adding 24 at position 2 and previ
 ERASE():-
 
 myDynamicArray.erase(4) --> deleting all the values from vector from the index 4 to till end.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UNORDERED_MAP:-
+
+printing the unordered_map<int,int> losser_map;
+
+for (auto i = losser_map.begin(); i != losser_map.end(); i++) 
+{
+   cout << i->first << "       " << i->second << endl;
+}
