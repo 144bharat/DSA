@@ -1,0 +1,3 @@
+Optimised mid:-
+
+mid = s + ((e-s)/2);
